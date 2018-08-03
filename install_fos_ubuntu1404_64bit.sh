@@ -197,7 +197,7 @@ startfos(){
 
 ffmpeg()
 {
-    wget http://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz -O /home/fos-streaming/ffmpeg-release-64bit-static.tar.xz  > /dev/null 2>&1
+    wget https://sourceforge.net/projects/restream/files/ffmpeg-release-64bit-static.tar.xz -O /home/fos-streaming/ffmpeg-release-64bit-static.tar.xz  > /dev/null 2>&1
     tar -xJf /home/fos-streaming/ffmpeg-release-64bit-static.tar.xz -C /tmp/ > /dev/null 2>&1
     /bin/cp /tmp/ffmpeg*/ffmpeg  /usr/local/bin/ffmpeg
     /bin/cp /tmp/ffmpeg*/ffprobe /usr/local/bin/ffprobe
