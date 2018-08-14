@@ -1,5 +1,9 @@
 #!/bin/bash
-
+# edited by Iryadinata
+# Web: https://irtech.net
+# GitHub: https://github.com/irtec/
+# City : Pangkalanbun
+#
 # FUNCTION: Ubuntu 14.04 Check
 distro(){
 if [ -f /etc/lsb-release ]; then
